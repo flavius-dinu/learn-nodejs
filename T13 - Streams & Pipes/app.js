@@ -33,6 +33,7 @@ var server = http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'application/json'});
     res.end(JSON.stringify(ninjas));
   } else{
+    // SEND 404
     res.writeHead(404, {'Content-Type': 'text/html'});
     var myReadStream = fs.createReadStream(__dirname + '/404.html', 'utf8');
     myReadStream.pipe(res);
