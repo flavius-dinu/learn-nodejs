@@ -1,0 +1,20 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sem vitae eros commodo viverra eget id libero. Suspendisse maximus iaculis tempor. Integer viverra nisl sapien, in viverra diam rutrum sit amet. Pellentesque vehicula vel lacus quis tempor. Vestibulum velit tellus, venenatis eu vulputate id, vestibulum nec arcu. Pellentesque posuere ultrices nibh in tempor. Sed rhoncus lectus id dui facilisis malesuada.",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "tutorial"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
